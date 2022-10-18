@@ -30,6 +30,7 @@ Deploy da API feita no <a href="https://drf-alura-pizza.herokuapp.com/">Heroku</
 - pip freeze > requirements-dev.txt - mostrar tudo que foi instalado
 - -r requirements-dev.txt 
 - heroku login - login no heroku 
+- git branch - ver todas as branchs no Heroku
 - py manage.py makemigrations
 - py manage.py migrate
 - python manage.py runserver - comando para rodar o server
