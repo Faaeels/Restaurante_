@@ -21,9 +21,15 @@ Deploy da API feita no <a href="https://drf-alura-pizza.herokuapp.com/">Heroku</
 
 ## 🛠️ Abrir e rodar o projeto:
 
-- python -m venv venv
-- venv/scripts/activate
-- pip install -r requirements.txt
+- python3 -m venv ./venv - crie um ambiente virtual
+- source venv/bin/activate - ative seu ambiente virtual 
+- pip install Django - instale o django
+- pip install djangorestframework - instale o Django Restfremework
+- pip install dj-database-url - instalar o database
+- pip install dj-static - "irmão" do database
+- pip freeze > requirements-dev.txt - mostrar tudo que foi instalado
+- -r requirements-dev.txt 
+- heroku login - login no heroku 
 - py manage.py makemigrations
 - py manage.py migrate
-- py manage.py runserver
+- python manage.py runserver - comando para rodar o server
