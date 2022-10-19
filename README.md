@@ -30,7 +30,10 @@ Deploy da API feita no <a href="https://drf-alura-pizza.herokuapp.com/">Heroku</
 - pip freeze > requirements-dev.txt - mostrar tudo que foi instalado
 - -r requirements-dev.txt 
 - heroku login - login no heroku 
+- heroku open - abrir o heroku 
 - git branch - ver todas as branchs no Heroku
+- python manage.py createsuperuser
+- python manage.py startapp restaurante - criar a pasta restaurante 
 - py manage.py makemigrations
 - py manage.py migrate
 - python manage.py runserver - comando para rodar o server
