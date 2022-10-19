@@ -7,7 +7,6 @@ API Rest criada juntamente com a Alura !
 API Rest que disponibiliza uma lista de pizzas [nome, descricao, preço e imagem];
 
 Novas pizzas podem ser adicionadas pelo Django Admin.  
-O armazenamento das imagens é realizado em um bucket na S3.
 
 Deploy da API feita no <a href="https://drf-alura-pizza.herokuapp.com/">Heroku</a>
 
@@ -17,7 +16,7 @@ Deploy da API feita no <a href="https://drf-alura-pizza.herokuapp.com/">Heroku</
 - `Django`
 - `Django Rest Framework`
 - `Heroku`
-- `S3`
+
 
 ## 🛠️ Abrir e rodar o projeto:
 
